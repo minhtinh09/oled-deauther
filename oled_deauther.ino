@@ -98,7 +98,7 @@ void setup(){
   display.setCursor(20,20);
   display.println("Scanning..");
   display.setCursor(20,35);
-  display.println("by cowsensei");
+  display.println("by Warwick");
   display.display();
   DEBUG_SER_INIT();
   WiFi.apbegin(ssid, pass, (char *) String(current_channel).c_str());
